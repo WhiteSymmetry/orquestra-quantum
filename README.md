@@ -24,7 +24,7 @@ Here's an example of how to use methods from `orquestra-quantum` to run a circui
 from orquestra.quantum.circuits import H, Circuit
 from orquestra.quantum.symbolic_simulator import SymbolicSimulator
 
-def orquestra_quantum_example_function()
+def orquestra_quantum_example_function():
     circ = Circuit([H(0)])
     sim = SymbolicSimulator()
     nsamples = 100
